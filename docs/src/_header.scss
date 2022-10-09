@@ -1,0 +1,19 @@
+@use "var";
+
+@include var.pc_screen() {
+}
+
+@include var.sp_screen() {
+    header{
+        top: 0;
+        left: 0;
+        position: fixed;
+        display: flex;
+        width: 100%;
+        background-color: white;
+        .title{
+            color: var.$color_sub;
+        }
+    }
+}
+

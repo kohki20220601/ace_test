@@ -3,4 +3,4 @@ import "./style.scss"
 
 const message:string = "こんにちはaaaaaa"
 
-hello(message)
+// hello(message)

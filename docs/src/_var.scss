@@ -1,0 +1,28 @@
+$color_main:red;
+$color_sub:blue;
+
+$size_min:520px;
+$size_max:960px;
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+$font_family: 'Alkalami', serif;
+
+
+@mixin pc_screen() {
+    @media screen and (min-width: $size_max) {
+        @content;
+    }
+}
+
+@mixin sp_screen() {
+    @media screen and (max-width: $size_min) {
+        @content;
+    }
+} 
+
+
+// @mixin tb_screen($minBreakPoint, $maxBreakPoint) {
+//     @media screen and (min-width: $minBreakPoint) and (max-width: $maxBreakPoint) {
+//         @content;
+//     }
+// }

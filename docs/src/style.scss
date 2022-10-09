@@ -1,1 +1,9 @@
-@import "base"
+@use "header";
+@use "body";
+@use "footer";
+@use "var";
+
+html{
+    font-family: var.$font_family;
+    // background-color: black;
+}

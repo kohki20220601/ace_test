@@ -1,0 +1,14 @@
+@use "var";
+
+@include var.pc_screen() {
+}
+
+@include var.sp_screen() {
+    header{
+        background-color: white;
+        .title{
+            color: var.$color_sub;
+        }
+    }
+}
+
