@@ -4,8 +4,12 @@ $color_sub:blue;
 $size_min:520px;
 $size_max:960px;
 
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
-$font_family: 'Alkalami', serif;
+// @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+// $font_family: 'Alkalami', serif;
+
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+$font-family: 'DotGothic16', sans-serif;
 
 
 @mixin pc_screen() {
