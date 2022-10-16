@@ -24,7 +24,7 @@ input[type="checkbox"] {
     // background-image: url("./ace4.png");
     // background-repeat: no-repeat;
     // background-position: left 1.5px;
-    // border: dashed #aaa;
+    border: none;
     border-radius: 50%;
     width: 45px;
     height: 45px;
@@ -42,6 +42,8 @@ input[type="checkbox"] {
     right: 1px;
 }
 .btn--large {
+    // transition: all 1s;
+
     // background: black;
     background-image: url("./ace5.png");
     background-repeat: no-repeat;
