@@ -20,7 +20,7 @@ input[type="checkbox"] {
     display: none;
 }
 .btn {
-    background: #e74c3c;
+    background: black;
     border: none;
     border-radius: 50%;
     width: 45px;
@@ -52,15 +52,16 @@ input[type="checkbox"] {
 .btn--menu:before {
     transform: translateY(5px);
 }
-.btn--share {
-    background: #f39c12;
+.btn--comment {
+    background: var.$color_main;
 }
 .btn--star {
-    background: #2ecc71;
+    background: var.$color_sub;
 }
-.btn--comment {
-    background: #16a085;
+.btn--share {
+    background: var.$color_sub2;
 }
+
 .actions-menu {
     position: absolute;
     width: 60px;

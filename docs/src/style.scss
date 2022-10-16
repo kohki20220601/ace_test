@@ -5,15 +5,12 @@
 
 html{
     font-family: var.$font_family;
-    // background-color: black;
-    .first {
-        color: red;
-    }
-
-    .second {
-        color: blue;
-        &.third {
-            background-color: black;
-        }
-    }
+    // .ace{
+    //     position: relative;
+    //     top: 100px;
+    //     width: 100%;
+    //     img{
+    //         filter: grayscale(100%);
+    //     }
+    // }
 }
