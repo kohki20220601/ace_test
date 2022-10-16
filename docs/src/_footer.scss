@@ -20,11 +20,21 @@ input[type="checkbox"] {
     display: none;
 }
 .btn {
-    background: black;
-    border: none;
+    // background: black;
+    // background-image: url("./ace4.png");
+    // background-repeat: no-repeat;
+    // background-position: left 1.5px;
+    border: dashed #aaa;
     border-radius: 50%;
     width: 45px;
     height: 45px;
+    // &.active{
+    //     background-color: aqua;
+    //     border: dashed #aaa;
+    //     border-radius: 50%;
+    //     width: 45px;
+    //     height: 45px;
+    // }
 }
 .btn svg {
     position: relative;
@@ -32,34 +42,55 @@ input[type="checkbox"] {
     right: 1px;
 }
 .btn--large {
+    // background: black;
+    background-image: url("./ace5.png");
+    background-repeat: no-repeat;
+    background-position: left 1.5px;
+    border: dashed #aaa;
+    border-radius: 50%;
     width: 60px;
     height: 60px;
+    &.active{
+        background-image: url("./ace4.png");
+        border: dashed #aaa;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+    }
 }
-.btn--menu:after,.btn--menu:before {
-    content: "";
-    display: block;
-    width: 25px;
-    height: 3px;
-    background: #fff;
-    position: absolute;
-    top: 29px;
-    left: 18px;
-    transition: transform 100ms;
-}
-.btn--menu:after {
-    transform: translateY(-5px);
-}
-.btn--menu:before {
-    transform: translateY(5px);
-}
+// .btn--large {
+//     width: 60px;
+//     height: 60px;
+// }
+// .btn--menu:after,.btn--menu:before {
+//     content: "";
+//     display: block;
+//     width: 25px;
+//     height: 3px;
+//     background: #fff;
+//     position: absolute;
+//     top: 29px;
+//     left: 18px;
+//     transition: transform 100ms;
+// }
+// .btn--menu:after {
+//     transform: translateY(-5px);
+// }
+// .btn--menu:before {
+//     transform: translateY(5px);
+// }
 .btn--comment {
-    background: var.$color_main;
+    // background: var.$color_main;
+    background: red;
+
 }
 .btn--star {
+    // background: yellow;
     background: var.$color_sub;
 }
 .btn--share {
-    background: var.$color_sub2;
+    background: black;
+    // background: var.$color_sub2;
 }
 
 .actions-menu {

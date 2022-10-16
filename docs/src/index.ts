@@ -1,10 +1,12 @@
 import { hello } from "./hello";
 import "./style.scss"
+import { footer } from "./footer";
 import { header } from "./header";
 import $ from "jquery"
 
 const message:string = "こんにちはaaaaaa"
 
+footer()
 header()
 
 // $(function(){
