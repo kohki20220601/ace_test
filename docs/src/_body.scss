@@ -4,11 +4,13 @@
 }
 
 @include var.sp_screen() {
-    header{
-        background-color: white;
-        .title{
-            color: var.$color_sub;
-        }
+    .adjustment {
+        padding-top: 75px;
     }
+
+    .test {
+        background-color: red;
+    }
+
 }
 
