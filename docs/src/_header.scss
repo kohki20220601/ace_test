@@ -81,18 +81,20 @@ nav {
             font-size: 32px;
             display: inline;
             z-index: 1;
-            // animation: tenmetu 1s ease-in-out infinite alternate;
+            animation: tenmetu 1s ease-in-out infinite alternate;
         }
-        // @keyframes tenmetu {
-        //     0% {
-        //         color: black;
-        //         text-shadow:1px 1px 0 #fff,-1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff;
-        //     }
-        //     100%{
-        //         color: var.$color_main;
-        //         text-shadow:1px 1px 0 var.$color_main,-1px 1px 0 var.$color_main,1px -1px 0 var.$color_main,-1px -1px 0 var.$color_main;
-        //     }
-        // }
+        @keyframes tenmetu {
+            0% {
+                font-size: 24px;
+                // color: black;
+                // text-shadow:1px 1px 0 #fff,-1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff;
+            }
+            100%{
+                font-size: 32px;
+                // color: var.$color_main;
+                // text-shadow:1px 1px 0 var.$color_main,-1px 1px 0 var.$color_main,1px -1px 0 var.$color_main,-1px -1px 0 var.$color_main;
+            }
+        }
         .D{
             position: absolute;
             top: 0;
@@ -135,8 +137,8 @@ nav {
         @keyframes tenmetu3 {
             0% {
                 font-size: 8px;
-                text-shadow:1px 1px 0 var.$color_sub2,-1px 1px 0 var.$color_sub2,1px -1px 0 var.$color_sub2,-1px -1px 0 var.$color_sub2;
 
+                text-shadow:1px 1px 0 #111,-1px 1px 0 #111,1px -1px 0 #111,-1px -1px 0 #111;
                 // text-shadow:1px 1px 0 #fff,-1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff;
             }
             100%{
