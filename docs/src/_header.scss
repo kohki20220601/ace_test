@@ -36,6 +36,7 @@ nav {
         align-items: center;
         padding: 5px;
         border-bottom: 2px solid #AAAAAA;
+        z-index: 100;
     }
     .logo {
         position: relative;
@@ -172,7 +173,7 @@ nav {
         text-align: center;
         background-color: #2d303a;
         box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
-        z-index: 1;
+        z-index: 100;
         transition-duration: 0.5s;
     }    
     .menu__item__top {
@@ -190,6 +191,7 @@ nav {
         color: #ffffff;
         font-size: 18px;
         transition-duration: 0.5s;
+        z-index: 1;
         &:hover {color: var.$color_main;}
     }
 

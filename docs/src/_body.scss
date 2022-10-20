@@ -11,6 +11,41 @@
     .test {
         background-color: red;
     }
+    
+    .swiper{
+        height: 300px;
+        width: 100%;
+        z-index: 99;
+        border-radius: 2%;
+    }
+    .swiper-pagination-bullet {
+        width: 12px !important;
+        height: 12px !important;
+        margin: 0 0 0 10px !important;
+        background: #333 !important;
+    }
+    .swiper-slide:nth-child(3n + 1) {
+        // background-color: #de4439;
+        background-image: url("test2.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba($color: #FEE, $alpha: 0.5);
+    }
 
+    .swiper-slide:nth-child(3n + 2) {
+        // background-color: #de4439;
+        background-image: url("test3.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba($color: #FEE, $alpha: 0.5);
+    }
+
+    .swiper-slide:nth-child(3n + 3) {
+        // background-color: #de4439;
+        background-image: url("ace5.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba($color: #FEE, $alpha: 0.5);
+    }
 }
 

@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "@types/three": "^0.144.0",
+    "swiper": "^8.4.4",
     "three": "^0.145.0"
   }
 }

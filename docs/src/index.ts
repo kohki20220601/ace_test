@@ -1,13 +1,14 @@
-import { hello } from "./hello";
 import "./style.scss"
+import { body } from "./body";
 import { footer } from "./footer";
 import { header } from "./header";
-import $ from "jquery"
 
 const message:string = "こんにちはaaaaaa"
 
+body(message)
 footer()
 header()
+
 
 // $(function(){
 //     console.log("i am index.ts on jquery")
