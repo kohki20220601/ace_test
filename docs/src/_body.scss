@@ -7,6 +7,10 @@
     .adjustment {
         padding-top: 75px;
     }
+    hr{
+        border: none;
+        border-top: 2px dotted;
+    }
 
     .test {
         background-color: red;
@@ -16,7 +20,7 @@
         height: 15em;
         width: 100%;
         z-index: 99;
-        border-radius: 2%;
+        border-radius: 5%;
     }
     .swiper-pagination-bullet {
         width: 12px !important;
@@ -40,15 +44,16 @@
         height: 15em;
         opacity: 0;
     }
-    .swiper-slide:nth-child(3n + 1) {
+    .swiper-slide:nth-child(4n + 1) {
         // background-color: #de4439;
-        background-image: url("test2.jpeg");
+        background-image: url("test5.jpeg");
         background-repeat: no-repeat;
         background-position: center;
         background-color: rgba($color: #FEE, $alpha: 0.5);
+        background-size: contain;
     }
 
-    .swiper-slide:nth-child(3n + 2) {
+    .swiper-slide:nth-child(4n + 2) {
         // background-color: #de4439;
         background-image: url("life188-1.jpeg");
         background-repeat: no-repeat;
@@ -57,17 +62,114 @@
         background-size: contain;
     }
 
-    .swiper-slide:nth-child(3n + 3) {
+    .swiper-slide:nth-child(4n + 3) {
         // background-color: #de4439;
         background-image: url("ace5.png");
         background-repeat: no-repeat;
         background-position: center;
         background-color: rgba($color: #FEE, $alpha: 0.5);
+        background-size: contain;
     }
 
-    .storedetail{
+    .swiper-slide:nth-child(4n + 4) {
+        // background-color: #de4439;
+        background-image: url("test4.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba($color: #FEE, $alpha: 0.5);
+        background-size: contain;
+    }
+
+
+    #store_detail{
         #googlemap{
             width: 100%;
+        }
+    }
+
+    .pickup{
+        padding-top: 15px;
+        position: relative;
+        height: 9em;
+        width: 100%;
+
+        p{
+            // width: 100%;
+            position: absolute;
+            font-size: 20px;
+            padding: 0;
+        }
+        .first{
+            span{
+                font-size: 36px;
+                color: var.$color_main;
+            }
+        }
+        .second{
+            top: 51px;
+            span{
+                font-size: 36px;
+                color: var.$color_main;
+            }
+
+        }
+        .third{
+            top: 87px;
+            span{
+                font-size: 36px;
+                color: var.$color_main;
+            }
+        }
+
+    }
+    h2{
+        margin: 0px;
+    }
+
+    #menu{
+
+        .meet{
+            width: 100%;
+
+            table{
+                border-collapse: collapse;
+                tr{
+                    td{
+                        // border-bottom: dashed 1px black;
+                        .photo1{
+                            height: 100px;
+                            width: 100px;
+                            border-radius: 5%;
+                            background-image: url("test5.jpeg");
+                            background-position: center;
+                            background-size: contain;
+                        }
+                        .photo2{
+                            height: 100px;
+                            border-radius: 5%;
+                            width: 100px;
+                            background-image: url("test5.jpeg");
+                            background-position: center;
+                            background-size: contain;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    #photo{
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            tr{
+                td{
+                    height: 100px;
+                    width: 100px;
+                    background-color: #FEE;
+                }
+            }
         }
     }
 }

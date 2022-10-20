@@ -175,8 +175,10 @@ nav {
         box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
         z-index: 100;
         transition-duration: 0.5s;
+        opacity: 0.88;
     }    
     .menu__item__top {
+        opacity: 0.88;
         display: block;
         padding: 12px 24px;
         color: #ffffff;
@@ -207,10 +209,12 @@ nav {
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
+    opacity: 0.88;
 }
 
 
 .menu__item {
+    opacity: 0.88;
     display: flex;
     flex-direction: column;
     padding: 10px 1em 0 1.9em;
