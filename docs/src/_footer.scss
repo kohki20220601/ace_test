@@ -43,7 +43,7 @@ input[type="checkbox"] {
 }
 .btn--large {
     // transition: all 1s;
-
+    z-index: 101;
     // background: black;
     background-image: url("./ace5.png");
     background-repeat: no-repeat;
