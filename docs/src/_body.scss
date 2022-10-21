@@ -194,7 +194,195 @@
                 }
             }
         }
+
+        .side{
+            position: relative;
+            width: 100%;
+
+            table{
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                border-collapse: collapse;
+                tr{
+                    position: relative;
+                    td{
+                        width: 110px;
+                        height: 80px;
+                        position: relative;
+                        font-size: 12px;
+                        span{
+                            color: red;
+                        }
+                    // border-bottom: dashed 1px black;
+                        .title{
+                            position: absolute;
+                            top: 0;
+                        }
+                        .description{
+                            font-size: 8px;
+                            text-align: center;
+                            margin-left: auto;
+                            margin-right: auto;                
+                            padding-bottom: 3px;
+                            span{
+                                color: red;
+                            }
+                            .hashtag{
+                                color: #00376B;
+                            }
+                            .gold{
+                                color: gold;
+                            }
+                            .green{
+                                color: green;
+                            }
+                        }
+                        .photo1{
+                            height: 100px;
+                            width: 100px;
+                            border-radius: 5%;
+                            background-image: url("karubi.jpeg");
+                            background-position: center;
+                            background-size: contain;
+                        }
+                        .photo2{
+                            height: 100px;
+                            border-radius: 5%;
+                            width: 100px;
+                            background-image: url("test5.jpeg");
+                            background-position: center;
+                            background-size: contain;
+                        }
+                        .photo_none{
+                            height: 100px;
+                            border-radius: 5%;
+                            width: 100px;
+                            background-image: url("ace_big.png");
+                            background-position: center;
+                            background-size: contain;
+                        }
+
+                    }
+                }
+            }
+        }
+        .drink{
+            position: relative;
+            width: 100%;
+
+            span{
+                color: red;
+            }
+
+            table{
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                border-collapse: collapse;
+                tr{
+                    position: relative;
+                    td{
+                        width: 110px;
+                        height: 80px;
+                        position: relative;
+                        font-size: 12px;
+                        span{
+                            color: red;
+                        }
+                    // border-bottom: dashed 1px black;
+                        .title{
+                            position: absolute;
+                            top: 0;
+                        }
+                        .description{
+                            font-size: 8px;
+                            text-align: center;
+                            margin-left: auto;
+                            margin-right: auto;                
+                            padding-bottom: 3px;
+                            span{
+                                color: red;
+                            }
+                            .hashtag{
+                                color: #00376B;
+                            }
+                            .gold{
+                                color: gold;
+                            }
+                            .green{
+                                color: green;
+                            }
+                        }
+                        .photo1{
+                            height: 100px;
+                            width: 100px;
+                            border-radius: 5%;
+                            background-image: url("karubi.jpeg");
+                            background-position: center;
+                            background-size: contain;
+                        }
+                        .photo2{
+                            height: 100px;
+                            border-radius: 5%;
+                            width: 100px;
+                            background-image: url("test5.jpeg");
+                            background-position: center;
+                            background-size: contain;
+                        }
+                        .photo_none{
+                            height: 100px;
+                            border-radius: 5%;
+                            width: 100px;
+                            background-image: url("ace_big.png");
+                            background-position: center;
+                            background-size: contain;
+                        }
+
+                    }
+                }
+            }
+        }
     }
+
+    #store_detail{
+        .store_table{
+            .tableheader_first{
+                text-align: left;
+                padding: 20px;
+                border-bottom-color: black;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-top-color: black;
+                border-top-width: 1px;
+                border-top-style: solid;
+            }
+            .cell_first{
+                padding: 20px;
+                border-bottom-color: #EEE;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-top-color: #EEE;
+                border-top-width: 1px;
+                border-top-style: solid;
+            }
+            .tableheader{
+                text-align: left;
+                padding: 20px;
+                border-bottom-color: black;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+            }
+            .cell{
+                padding: 20px;
+                border-bottom-color: #EEE;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+            }
+        }
+    }
+
+    
 
     #photo{
         table{
