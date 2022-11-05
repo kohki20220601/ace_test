@@ -17,16 +17,17 @@
     }
     
     .swiper{
-        height: 15em;
+        height: 32em;
         width: 100%;
         z-index: 99;
-        border-radius: 5%;
+        border-radius: 3%;
     }
     .swiper-pagination-bullet {
         width: 12px !important;
         height: 12px !important;
         margin: 0 0 0 10px !important;
-        background: #333 !important;
+        color: #FFF !important;
+        background: #FFF !important;
     }
     .swiper-button-next{
         height: 15em;
@@ -45,11 +46,19 @@
         opacity: 0;
     }
     .swiper-slide:nth-child(4n + 1) {
+        // text-shadow:1px 1px 0 #f00,-1px 1px 0 #f00,1px -1px 0 #f00,-1px -1px 0 #f00;
+        text-shadow:0.5px 0.5px 0 #fff,-0.5px 0.5px 0 #fff,0.5px -0.5px 0 #fff,-0.5px -0.5px 0 #fff;
+        display: inline-block;
+        vertical-align: middle;
+        writing-mode: vertical-rl;
+        text-align: center;
+        font-feature-settings: "palt";
+        color: #FFF;
         // background-color: #de4439;
-        background-image: url("test5.jpeg");
+        background-image: url("飛騨牛特上カルビ.JPG");
         background-repeat: no-repeat;
         background-position: center;
-        background-color: rgba($color: #FEE, $alpha: 0.5);
+        background-color: rgba($color: #000, $alpha: 0.007);
         background-size: contain;
     }
 

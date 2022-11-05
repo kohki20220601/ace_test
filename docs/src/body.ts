@@ -23,6 +23,7 @@ function slide (message: string): void {
             autoplay: true,
             pagination: {
                 el: '.swiper-pagination',
+                type: "fraction" 
             },
             navigation: {
                 nextEl: '.swiper-button-next',
