@@ -9,6 +9,7 @@
         right: 0;
         position: fixed;
         display: flex;
+        z-index: 100;
         background-color: black;
         .title{
             color: var.$color_sub;
@@ -88,10 +89,10 @@ input[type="checkbox"] {
 }
 .btn--star {
     // background: yellow;
-    background: var.$color_sub;
+    background: yellow;
 }
 .btn--share {
-    background: black;
+    background: #222;
     // background: var.$color_sub2;
 }
 
