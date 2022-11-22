@@ -146,6 +146,7 @@
         background-position: center;
         background-color: rgba($color: #000, $alpha: 0.007);
         background-size: contain;
+        // font-size: 12px;
     }
     // .swiper-slide:nth-child(7) {
     //     // text-shadow:1px 1px 0 #f00,-1px 1px 0 #f00,1px -1px 0 #f00,-1px -1px 0 #f00;
@@ -459,6 +460,65 @@
         }
     }
 
+
+    .room_detail{
+        .store_table{
+            .tableheader_first{
+                text-align: left;
+                padding: 20px;
+                border-left-color: #EEE;
+                border-left-width: 1px;
+                border-left-style: solid;
+                border-right-color: #EEE;
+                border-right-width: 1px;
+                border-right-style: solid;
+                border-bottom-color: black;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-top-color: black;
+                border-top-width: 1px;
+                border-top-style: solid;
+            }
+            .cell_first{
+                padding: 20px;
+                border-bottom-color: #EEE;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-top-color: #EEE;
+                border-top-width: 1px;
+                border-top-style: solid;
+                border-right-color: #EEE;
+                border-right-width: 1px;
+                border-right-style: solid;
+
+            }
+            .tableheader{
+                text-align: left;
+                padding: 20px;
+                border-left-color: #EEE;
+                border-left-width: 1px;
+                border-left-style: solid;
+                border-right-color: #EEE;
+                border-right-width: 1px;
+                border-right-style: solid;
+
+                border-bottom-color: black;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+            }
+            .cell{
+                padding: 20px;
+                border-bottom-color: #EEE;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-right-color: #EEE;
+                border-right-width: 1px;
+                border-right-style: solid;
+
+            }
+        }
+    }
+
     #store_detail{
         .store_table{
             .tableheader_first{
@@ -745,6 +805,22 @@
             animation-fill-mode: both;
           }
     }
+
+    .store_photo {
+        width: 300px;
+        height: 240px;
+        background-image: url("店内3f横長.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba($color: #000, $alpha: 0.007);
+        background-size: contain;
+        // font-size: 12px;
+    }
+
+    .under-line {
+        background: linear-gradient(transparent, 95%, var.$color_main 0%);
+      }
+
 
 }
 
